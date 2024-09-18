@@ -1,0 +1,4 @@
+Flask
+nltk
+IMDbPY
+matplotlib
