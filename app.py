@@ -5,7 +5,6 @@ from movie import fetch_movie_reviews,analyze_reviews,save_bar_graph
 app = Flask(__name__)
 @app.route('/')
 def index():
-    print("hello")
     return render_template('index.html')
 
 @app.route('/analyze', methods=['POST'])
